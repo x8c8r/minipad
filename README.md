@@ -1,4 +1,5 @@
-# npad
+# miniPad
+A mini notepad built with [Vue](https://vuejs.org/)
 
 ## Project setup
 ```

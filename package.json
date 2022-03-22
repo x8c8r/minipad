@@ -1,14 +1,16 @@
 {
-  "name": "npad",
+  "name": "minipad",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "deploy": "sh ./deploy.sh",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "file-saver": "^2.0.5",
     "vue": "^3.2.13"
   },
   "devDependencies": {
@@ -18,7 +20,8 @@
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
     "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^8.0.3"
+    "eslint-plugin-vue": "^8.0.3",
+    "webpack-cli": "^4.9.2"
   },
   "eslintConfig": {
     "root": true,
