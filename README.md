@@ -1,5 +1,5 @@
 # miniPad
-A mini notepad built with [Vue](https://vuejs.org/)
+miniPad is a fast and minimalistic web-based text editor built with [Vue](https://vuejs.org/)
 
 ## Project setup
 ```
